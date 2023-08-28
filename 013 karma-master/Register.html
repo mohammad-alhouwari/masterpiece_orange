@@ -15,11 +15,11 @@
 	<!-- meta character set -->
 	<meta charset="UTF-8">
 	<!-- Site Title -->
-	<title>التواصل</title>
+	<title>التسجيل لأول مرّة</title>
 
 	<!--
-            CSS
-            ============================================= -->
+		CSS
+		============================================= -->
 	<link rel="stylesheet" href="css/linearicons.css">
 	<link rel="stylesheet" href="css/owl.carousel.css">
 	<link rel="stylesheet" href="css/themify-icons.css">
@@ -48,7 +48,7 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<ul class="nav navbar-nav menu_nav ml-auto">
-							<li class="nav-item active"><a class="nav-link" href="index.html">الرأيسية</a></li>
+							<li class="nav-item "><a class="nav-link" href="index.html">الرأيسية</a></li>
 							<li class="nav-item submenu dropdown">
 								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
 								 aria-expanded="false">المتجر</a>
@@ -62,7 +62,7 @@
 							<li class="nav-item"><a class="nav-link" href="checkout.html">الدفع والمحاسبة</a></li>
 							<!-- <li class="nav-item"><a class="nav-link" href="cart.html">سلة المشتريات</a></li> -->
 							<li class="nav-item"><a class="nav-link" href="contact.html">تواصل معنا</a></li>
-							<li class="nav-item"><a class=" primary-btn small" href="login.html">  تسجيل الدخول   </a></li>
+							<li class="nav-item active"><a class=" primary-btn small" href="login.html">  تسجيل الدخول   </a></li>
 							
 							<!-- <li class="nav-item submenu dropdown">
 								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
@@ -111,10 +111,10 @@
 		<div class="container">
 			<div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
 				<div class="col-first">
-					<h1>تواصل معنا</h1>
+					<h1>Login/Register</h1>
 					<nav class="d-flex align-items-center">
-						<a href="index.html">الرأيسية<span class="lnr lnr-arrow-right"></span></a>
-						<a href="category.html">تواصل</a>
+						<a href="index.html">Home<span class="lnr lnr-arrow-right"></span></a>
+						<a href="category.html">Login/Register</a>
 					</nav>
 				</div>
 			</div>
@@ -122,59 +122,47 @@
 	</section>
 	<!-- End Banner Area -->
 
-	<!--================Contact Area =================-->
-	<section class="contact_area section_gap_bottom">
+	<!--================Login Box Area =================-->
+	<section class="login_box_area section_gap">
 		<div class="container">
-			<div id="mapBox" class="mapBox" data-lat="32.5524333" data-lon="35.8497264" data-zoom="17" data-info="Orange Digital Village Irbid."
-			data-mlat="32.5524333" data-mlon="35.8497264">
-			</div>
 			<div class="row">
-				<div class="col-lg-3">
-					<div class="contact_info">
-						<div class="info_item">
-							<i class="lnr lnr-home"></i>
-							<h6>الأردن, إربد</h6>
-							<p>أكادمية أورنج للبرمجة</p>
-						</div>
-						<div class="info_item">
-							<i class="lnr lnr-phone-handset"></i>
-							<h6><a href="#">00 (962) 788 120 617</a></h6>
-							<p>من السبت للخميس من ال7 صباحاً حتى ال10 ليلاً</p>
-						</div>
-						<div class="info_item">
-							<i class="lnr lnr-envelope"></i>
-							<h6><a href="#">support@gmail.com</a></h6>
-							<p>بإنتظار اقتراحاتكم</p>
+				<div class="col-lg-6">
+					<div class="login_box_img">
+						<img class="img-fluid" src="img/login.jpg" alt="">
+						<div class="hover">
+							<h4>New to our website?</h4>
+							<p>There are advances being made in science and technology everyday, and a good example of this is the</p>
+							<a class="primary-btn" href="registration.html">Create an Account</a>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-9">
-					<form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
-						<div class="col-md-6">
-							<div class="form-group">
-								<input type="text" class="form-control" id="name" name="name" placeholder="إسمك" onfocus="this.placeholder = ''" onblur="this.placeholder = 'أدخل إسمك'">
+				<div class="col-lg-6">
+					<div class="login_form_inner">
+						<h3>Log in to enter</h3>
+						<form class="row login_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+							<div class="col-md-12 form-group">
+								<input type="text" class="form-control" id="name" name="name" placeholder="Username" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Username'">
 							</div>
-							<div class="form-group">
-								<input type="email" class="form-control" id="email" name="email" placeholder="بريدك الإليكتروني" onfocus="this.placeholder = ''" onblur="this.placeholder = 'أدخل بريدك الإليكتروني'">
+							<div class="col-md-12 form-group">
+								<input type="text" class="form-control" id="name" name="name" placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'">
 							</div>
-							<div class="form-group">
-								<input type="text" class="form-control" id="subject" name="subject" placeholder="الموضوع" onfocus="this.placeholder = ''" onblur="this.placeholder = 'أدخيل الموضوع'">
+							<div class="col-md-12 form-group">
+								<div class="creat_account">
+									<input type="checkbox" id="f-option2" name="selector">
+									<label for="f-option2">Keep me logged in</label>
+								</div>
 							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="form-group">
-								<textarea class="form-control" name="message" id="message" rows="1" placeholder="رسالتك" onfocus="this.placeholder = ''" onblur="this.placeholder = 'أدخيل رسالتك'"></textarea>
+							<div class="col-md-12 form-group">
+								<button type="submit" value="submit" class="primary-btn">Log In</button>
+								<a href="#">Forgot Password?</a>
 							</div>
-						</div>
-						<div class="col-md-12 text-right">
-							<button type="submit" value="submit" class="primary-btn">Send Message</button>
-						</div>
-					</form>
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!--================Contact Area =================-->
+	<!--================End Login Box Area =================-->
 
 	<!-- start footer Area -->
 	<footer class="footer-area section_gap">
@@ -254,38 +242,6 @@
 		</div>
 	</footer>
 	<!-- End footer Area -->
-
-	<!--================Contact Success and Error message Area =================-->
-	<div id="success" class="modal modal-message fade" role="dialog">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<i class="fa fa-close"></i>
-					</button>
-					<h2>Thank you</h2>
-					<p>Your message is successfully sent...</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Modals error -->
-
-	<div id="error" class="modal modal-message fade" role="dialog">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<i class="fa fa-close"></i>
-					</button>
-					<h2>Sorry !</h2>
-					<p> Something went wrong </p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--================End Contact Success and Error message Area =================-->
 
 
 	<script src="js/vendor/jquery-2.2.4.min.js"></script>
