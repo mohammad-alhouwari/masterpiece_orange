@@ -4,8 +4,11 @@
 
 
 @font-face {
-  font-family: 'amiriFont';
-  src: url(/masterpiece_orange/redo/fonts/ReemKufi-VariableFont_wght.ttf);
+  font-family: 'test';
+  /* src: url(/redo/fonts/amiri-quran.ttf); */
+  /* src: url(/redo/fonts/aref-ruqaa.ttf); */
+  /* src: url(/redo/fonts/Marhey-VariableFont_wght.ttf); */
+  /* src: url(/redo/fonts/ReemKufi-VariableFont_wght.ttf); */
 }
 
 
@@ -927,7 +930,7 @@ a:focus {
 .footer_section .footer-logo {
   font-weight: 600;
   margin-bottom: 20px;
-  font-family:'amiriFont';
+  font-family:'test';
 }
 
 .footer_section p {
